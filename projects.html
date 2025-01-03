@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Arun Kashyap</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .project-card {
+            transition: all 0.3s ease-in-out;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold">Projects</h1>
+            <p class="text-lg mt-2">Explore my work and contributions</p>
+        </div>
+    </header>
+
+    <!-- Projects -->
+    <main class="py-12">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6 project-card">
+                <h2 class="text-2xl font-semibold mb-4">Billionaires Unveiled</h2>
+                <p class="text-lg mb-4">Exploration of wealth distribution using Python and data visualization techniques.</p>
+                <a href="https://github.com/yourgithub/billionaires-unveiled" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition inline-block">View GitHub Repo</a>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 project-card">
+                <h2 class="text-2xl font-semibold mb-4">ResNet50 Unleashed</h2>
+                <p class="text-lg mb-4">Image recognition on CIFAR-10 dataset achieving 93.08% test accuracy.</p>
+                <a href="https://github.com/yourgithub/resnet50-cifar10" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition inline-block">View GitHub Repo</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Arun Kashyap. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
