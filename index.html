@@ -18,14 +18,18 @@
             transform: scale(1.02);
             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
+        .text-xl { font-size: 1.375rem; }
+        .text-2xl { font-size: 2rem; }
+        .text-3xl { font-size: 2.5rem; }
+        .text-4xl { font-size: 3rem; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white shadow-md z-50">
-        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="text-2xl font-bold">Arun Kashyap</div>
-            <div class="space-x-6">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-3xl font-bold">Arun Kashyap</div>
+            <div class="space-x-8">
                 <a href="#about" class="hover:text-blue-600 transition">About</a>
                 <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
                 <a href="#articles" class="hover:text-blue-600 transition">Articles</a>
@@ -35,31 +39,31 @@
     </nav>
 
     <!-- About Section -->
-    <section id="about" class="min-h-screen pt-20 container mx-auto px-4 flex items-center">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
+    <section id="about" class="min-h-screen pt-24 container mx-auto px-8 flex items-center">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <img src="https://placehold.co/400x400" alt="Arun Kashyap" class="rounded-full w-64 h-64 object-cover mx-auto shadow-lg">
+                <img src="https://placehold.co/500x500" alt="Arun Kashyap" class="rounded-full w-80 h-80 object-cover mx-auto shadow-lg">
             </div>
             <div>
-                <h1 class="text-4xl font-bold mb-4">Hi, I'm Arun Kashyap</h1>
-                <p class="text-lg mb-4">
+                <h1 class="text-5xl font-bold mb-6">Hi, I'm Arun Kashyap</h1>
+                <p class="text-xl mb-6">
                     A passionate Data Scientist with expertise in Machine Learning, Big Data, and Cloud Platforms. I enjoy creating impactful solutions and continuously learning emerging technologies.
                 </p>
 
-                <div class="mb-6">
-                    <h2 class="text-2xl font-semibold mb-3">Skills</h2>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C++</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">TensorFlow</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Tableau</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">MySQL</span>
+                <div class="mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-lg">Python</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-lg">C++</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-lg">TensorFlow</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-lg">Tableau</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-lg">MySQL</span>
                     </div>
                 </div>
 
-                <div class="mb-6">
-                    <h2 class="text-2xl font-semibold mb-3">Certifications</h2>
-                    <ul class="list-disc pl-5">
+                <div class="mb-8">
+                    <h2 class="text-3xl font-semibold mb-4">Certifications</h2>
+                    <ul class="list-disc pl-6 text-lg">
                         <li>Python for Everybody</li>
                         <li>Data Structures in Python</li>
                         <li>Machine Learning for All</li>
@@ -67,7 +71,7 @@
                     </ul>
                 </div>
 
-                <a href="/resume.pdf" download class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition inline-block">
+                <a href="/resume.pdf" download class="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition inline-block text-lg">
                     Download Resume <i class="fas fa-download ml-2"></i>
                 </a>
             </div>
@@ -76,21 +80,21 @@
 
     <!-- Projects Section -->
     <section id="projects" class="bg-white py-20">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-gray-100 p-6 rounded-lg section-fade">
-                    <h3 class="text-xl font-semibold mb-3">Billionaires Unveiled</h3>
-                    <p>Exploration of wealth distribution using Python and data visualization techniques.</p>
+        <div class="container mx-auto px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-8 rounded-lg section-fade">
+                    <h3 class="text-2xl font-semibold mb-4">Billionaires Unveiled</h3>
+                    <p class="text-lg mb-6">Exploration of wealth distribution using Python and data visualization techniques.</p>
                     <div class="mt-4">
-                        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                        <a href="projects.html" class="text-blue-600 hover:underline text-lg">View Project</a>
                     </div>
                 </div>
-                <div class="bg-gray-100 p-6 rounded-lg section-fade">
-                    <h3 class="text-xl font-semibold mb-3">ResNet50 Unleashed</h3>
-                    <p>Image recognition on CIFAR-10 dataset achieving 93.08% test accuracy.</p>
+                <div class="bg-gray-100 p-8 rounded-lg section-fade">
+                    <h3 class="text-2xl font-semibold mb-4">ResNet50 Unleashed</h3>
+                    <p class="text-lg mb-6">Image recognition on CIFAR-10 dataset achieving 93.08% test accuracy.</p>
                     <div class="mt-4">
-                        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                        <a href="projects.html" class="text-blue-600 hover:underline text-lg">View Project</a>
                     </div>
                 </div>
             </div>
@@ -99,18 +103,18 @@
 
     <!-- Articles Section -->
     <section id="articles" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-10">Articles</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-lg shadow-md section-fade">
-                    <h3 class="text-xl font-semibold mb-3">Article 1 Title</h3>
-                    <p class="mb-4">Short preview of the article content...</p>
-                    <a href="article1.html" target="_blank" class="text-blue-600 hover:underline">Read More</a>
+        <div class="container mx-auto px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Articles</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md section-fade">
+                    <h3 class="text-2xl font-semibold mb-4">Article 1 Title</h3>
+                    <p class="text-lg mb-6">Short preview of the article content...</p>
+                    <a href="articles.html" target="_blank" class="text-blue-600 hover:underline text-lg">Read More</a>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md section-fade">
-                    <h3 class="text-xl font-semibold mb-3">Article 2 Title</h3>
-                    <p class="mb-4">Short preview of the article content...</p>
-                    <a href="article2.html" target="_blank" class="text-blue-600 hover:underline">Read More</a>
+                <div class="bg-white p-8 rounded-lg shadow-md section-fade">
+                    <h3 class="text-2xl font-semibold mb-4">Article 2 Title</h3>
+                    <p class="text-lg mb-6">Short preview of the article content...</p>
+                    <a href="articles.html" target="_blank" class="text-blue-600 hover:underline text-lg">Read More</a>
                 </div>
             </div>
         </div>
@@ -118,21 +122,21 @@
 
     <!-- Contact Section -->
     <section id="contact" class="bg-blue-600 text-white py-20">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
-            <p class="mb-6">Feel free to reach out for collaborations or just a friendly chat!</p>
-            <div class="flex justify-center space-x-6">
-                <a href="#" class="text-3xl hover:text-blue-200 transition"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="text-3xl hover:text-blue-200 transition"><i class="fab fa-github"></i></a>
-                <a href="#" class="text-3xl hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
-                <a href="mailto:hvarunkashyap@gmail.com" class="text-3xl hover:text-blue-200 transition"><i class="fas fa-envelope"></i></a>
+        <div class="container mx-auto px-8 text-center">
+            <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+            <p class="text-lg mb-8">Feel free to reach out for collaborations or just a friendly chat!</p>
+            <div class="flex justify-center space-x-8">
+                <a href="#" class="text-4xl hover:text-blue-200 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-4xl hover:text-blue-200 transition"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-4xl hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:hvarunkashyap@gmail.com" class="text-4xl hover:text-blue-200 transition"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6">
-        <div class="container mx-auto px-4 text-center">
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-8 text-center">
             <p>&copy; 2024 Arun Kashyap. All Rights Reserved.</p>
         </div>
     </footer>
